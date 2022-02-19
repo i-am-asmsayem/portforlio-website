@@ -1,0 +1,231 @@
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        /* Start of Top Section */
+        
+        .top {
+            display: flex;
+            width: 100%;
+        }
+        
+        .top-left {
+            width: 50%;
+            padding-left: 10%;
+            text-align: justify;
+        }
+        
+        .top-right {
+            width: 35%;
+            padding-left: 5%;
+        }
+        
+        .top-heading {
+            font-size: 70px;
+            font-weight: 900;
+        }
+        
+        .top-bio {
+            font-size: 30px;
+            padding-right: 20px;
+        }
+        
+        .nested-heading-color {
+            color: #00008b;
+        }
+        
+        .top-right-img {
+            padding-top: 50px;
+        }
+        
+        .explore-btn {
+            background-color: #00008b;
+            color: #fff;
+            font-size: 20px;
+            padding: 20px 40px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        
+        .explore-btn a {
+            text-decoration: none;
+            color: #fff;
+        }
+        /* End of Top Section */
+        /* Start of my-mission-section */
+        
+        .my-mission-section {
+            width: 100%;
+            margin-bottom: 100px;
+            text-align: center;
+        }
+        
+        .my-mission-section-boxes-heading-img {
+            text-align: left;
+            padding-left: 10px;
+        }
+        
+        .my-mission-section-header {
+            font-size: 60px;
+            font-weight: 900;
+            color: #00008b;
+            text-align: center;
+        }
+        
+        .my-mission-section-boxes-heading {
+            font-size: 25px;
+            padding-left: 20px;
+            font-weight: 900;
+        }
+        
+        .my-mission-section-boxes {
+            width: 25%;
+            height: 600px;
+            background-color: aqua;
+            border: 2px solid wheat;
+            margin-top: 50px;
+            border-radius: 10px;
+            margin-left: 15px;
+            box-shadow: 5px 10px #888888;
+        }
+        
+        .first-box {
+            background-color: rgb(248, 248, 211);
+            display: inline-block;
+        }
+        
+        .middle-box {
+            background-color: rgb(184, 240, 221);
+            display: inline-block;
+        }
+        
+        .last-box {
+            background-color: rgb(240, 187, 167);
+            display: inline-block;
+        }
+        
+        .my-mission-section-boxes p {
+            padding: 20px 20px;
+            font-size: 20px;
+            text-align: justify;
+            line-height: 30px;
+            font-weight: 600;
+        }
+        /* End of my-mission-section */
+        /* Start of Develop without Limits */
+        
+        .third-section {
+            width: 100%;
+            display: inline-flex;
+            margin-top: 150px;
+        }
+        
+        .third-section-header {
+            font-size: 40px;
+            font-weight: bolder;
+            line-height: 50px;
+            color: salmon;
+        }
+        
+        .third-section-right {
+            width: 45%;
+            text-align: justify;
+            font-size: 23px;
+            line-height: 30px;
+            padding-right: 200px;
+        }
+        
+        .third-section-left {
+            width: 40%;
+            padding-left: 250px;
+            background-image: url(img/shape-1.png);
+            background-size: 300px 300px;
+            background-repeat: no-repeat;
+            background-position: left 120px center;
+        }
+        /* End of Third Section */
+        /* Start of Fourth Section*/
+        
+        .fourth-section {
+            width: 100%;
+            display: inline-flex;
+            margin-top: 150px;
+            margin-bottom: 100px;
+        }
+        
+        .fourth-section-header {
+            font-size: 40px;
+            font-weight: bolder;
+            line-height: 50px;
+            color: salmon;
+        }
+        
+        .fourth-section-left {
+            width: 45%;
+            text-align: justify;
+            font-size: 23px;
+            line-height: 30px;
+            padding-left: 200px;
+        }
+        
+        .fourth-section-right {
+            width: 40%;
+            padding-left: 150px;
+            background-image: url(img/shape-1.png);
+            background-size: 300px 300px;
+            background-repeat: no-repeat;
+            background-position: right 150px bottom;
+        }
+        /* End of Fourth Section */
+        /* Start of Fifth Section */
+        
+        .fifth-section {
+            width: 100%;
+            display: inline-flex;
+            margin-top: 90px;
+            margin-bottom: 150px;
+        }
+        
+        .fifth-section-header {
+            font-size: 40px;
+            font-weight: bolder;
+            line-height: 50px;
+            color: salmon;
+        }
+        
+        .fifth-section-right {
+            width: 45%;
+            text-align: justify;
+            font-size: 20px;
+            line-height: 30px;
+            padding: 150px 200px 0 0;
+        }
+        
+        .fifth-section-left {
+            width: 40%;
+            padding-left: 250px;
+            background-image: url(img/shape-3.png), url(img/shape-3.png), url(img/shape-3.png);
+            background-size: 200px 200px, 150px 150px, 150px 150px;
+            background-repeat: no-repeat;
+            background-position: left 200px top, left 250px bottom, right 200px center;
+        }
+        /* End of Third Section */
+        
+        .footer {
+            height: 250px;
+            background-color: salmon;
+            text-align: center;
+            padding-top: 125px;
+        }
+        
+        .footer h2 {
+            font-size: 50px;
+            font-weight: 900;
+        }
+        
+        .footer h2 span {
+            color: #00008b;
+        }
+        
+        .footer h3 {
+            font-size: 22px;
+        }
